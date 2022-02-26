@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6087" started-at="2022-02-25T20:33:08Z" finished-at="2022-02-25T20:33:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6087" started-at="2022-02-25T20:33:08Z" finished-at="2022-02-25T20:33:14Z">
+      <class name="testcases.JeansTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.JeansTest@1bce4f0a]" name="setup" is-config="true" duration-ms="12133" started-at="2022-02-25T20:32:55Z" finished-at="2022-02-25T20:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="findProduct()[pri:1, instance:testcases.JeansTest@1bce4f0a]" name="findProduct" duration-ms="4256" started-at="2022-02-25T20:33:08Z" description="Step 1,2,3 and 4 of Assignment" finished-at="2022-02-25T20:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findProduct -->
+        <test-method status="PASS" signature="discountedPriceList()[pri:2, instance:testcases.JeansTest@1bce4f0a]" name="discountedPriceList" duration-ms="515" started-at="2022-02-25T20:33:12Z" description="Step 5 of Assignment" finished-at="2022-02-25T20:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- discountedPriceList -->
+        <test-method status="PASS" signature="nameList()[pri:2, instance:testcases.JeansTest@1bce4f0a]" name="nameList" duration-ms="226" started-at="2022-02-25T20:33:12Z" description="Step 5 of Assignment" finished-at="2022-02-25T20:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameList -->
+        <test-method status="PASS" signature="originalPriceList()[pri:2, instance:testcases.JeansTest@1bce4f0a]" name="originalPriceList" duration-ms="254" started-at="2022-02-25T20:33:13Z" description="Step 5 of Assignment" finished-at="2022-02-25T20:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- originalPriceList -->
+        <test-method status="PASS" signature="details()[pri:3, instance:testcases.JeansTest@1bce4f0a]" name="details" duration-ms="543" started-at="2022-02-25T20:33:13Z" description="Step 6 of Assignment" finished-at="2022-02-25T20:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- details -->
+        <test-method status="PASS" signature="highPriceJeans()[pri:4, instance:testcases.JeansTest@1bce4f0a]" name="highPriceJeans" duration-ms="226" started-at="2022-02-25T20:33:13Z" description="Step 7 of Assignment" finished-at="2022-02-25T20:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highPriceJeans -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.JeansTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1072" started-at="2022-02-25T20:33:14Z" finished-at="2022-02-25T20:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.JeansTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="4978" started-at="2022-02-25T20:33:25Z" finished-at="2022-02-25T20:33:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4978" started-at="2022-02-25T20:33:25Z" finished-at="2022-02-25T20:33:30Z">
+      <class name="testcases.JeansTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.JeansTest@553f17c]" name="setup" is-config="true" duration-ms="9870" started-at="2022-02-25T20:33:15Z" finished-at="2022-02-25T20:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="findProduct()[pri:1, instance:testcases.JeansTest@553f17c]" name="findProduct" duration-ms="3287" started-at="2022-02-25T20:33:25Z" description="Step 1,2,3 and 4 of Assignment" finished-at="2022-02-25T20:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findProduct -->
+        <test-method status="PASS" signature="discountedPriceList()[pri:2, instance:testcases.JeansTest@553f17c]" name="discountedPriceList" duration-ms="494" started-at="2022-02-25T20:33:28Z" description="Step 5 of Assignment" finished-at="2022-02-25T20:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- discountedPriceList -->
+        <test-method status="PASS" signature="nameList()[pri:2, instance:testcases.JeansTest@553f17c]" name="nameList" duration-ms="212" started-at="2022-02-25T20:33:28Z" description="Step 5 of Assignment" finished-at="2022-02-25T20:33:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameList -->
+        <test-method status="PASS" signature="originalPriceList()[pri:2, instance:testcases.JeansTest@553f17c]" name="originalPriceList" duration-ms="262" started-at="2022-02-25T20:33:29Z" description="Step 5 of Assignment" finished-at="2022-02-25T20:33:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- originalPriceList -->
+        <test-method status="PASS" signature="details()[pri:3, instance:testcases.JeansTest@553f17c]" name="details" duration-ms="483" started-at="2022-02-25T20:33:29Z" description="Step 6 of Assignment" finished-at="2022-02-25T20:33:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- details -->
+        <test-method status="PASS" signature="highPriceJeans()[pri:4, instance:testcases.JeansTest@553f17c]" name="highPriceJeans" duration-ms="223" started-at="2022-02-25T20:33:29Z" description="Step 7 of Assignment" finished-at="2022-02-25T20:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highPriceJeans -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.JeansTest@553f17c]" name="tearDown" is-config="true" duration-ms="956" started-at="2022-02-25T20:33:30Z" finished-at="2022-02-25T20:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.JeansTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite name="MasterSuite" duration-ms="0" started-at="2022-02-25T20:33:31Z" finished-at="2022-02-25T20:33:31Z">
+    <groups>
+    </groups>
+  </suite> <!-- MasterSuite -->
+</testng-results>

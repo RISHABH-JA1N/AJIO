@@ -80,3 +80,4 @@ public class JeansTest extends BaseTest {
 	}
 
 }
+

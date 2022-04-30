@@ -26,20 +26,29 @@
 					<testFailureIgnore> false </testFailureIgnore>
 
 					<suiteXmlFiles>
-						<!-- 
-						<suiteXmlFile>src/test/resources/runner/testng.xml</suiteXmlFile>
-						<suiteXmlFile>src/test/resources/runner/testng-master.xml</suiteXmlFile>
-						<suiteXmlFile>src/test/resources/runner/testng-regression.xml</suiteXmlFile>
-						<suiteXmlFile>src/test/resources/runner/testng-sanity.xml</suiteXmlFile> 
-						-->
-						<suiteXmlFile>src/test/resources/runner/${testngfilename}</suiteXmlFile>
+						<!-- <suiteXmlFile>src/test/resources/runner/testng.xml</suiteXmlFile> 
+							<suiteXmlFile>src/test/resources/runner/testng-master.xml</suiteXmlFile> 
+							<suiteXmlFile>src/test/resources/runner/testng-regression.xml</suiteXmlFile> 
+							<suiteXmlFile>src/test/resources/runner/testng-sanity.xml</suiteXmlFile> -->
+							
+              <!-- 	<suiteXmlFile>src/test/resources/runner/${testngfilename}</suiteXmlFile> -->
+
+						<suiteXmlFile>${testngfilename}</suiteXmlFile>
 					</suiteXmlFiles>
 
-                        <groups>${groups}</groups>
-                        
-                        <systemPropertyVariables>
-						<propertyName>${url}</propertyName>
-					    </systemPropertyVariables>
+					<groups>${groups}</groups>
+
+					<systemPropertyVariables>
+<!-- 						<propertyName>${url}</propertyName> -->
+						<app.URL>${url}</app.URL>
+					</systemPropertyVariables>
+
+					<properties>
+						<property>
+							<name>suitethreadpoolsize</name>
+							<value>2</value>
+						</property>
+					</properties>
 
 				</configuration>
 

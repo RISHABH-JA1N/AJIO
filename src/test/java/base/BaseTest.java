@@ -63,11 +63,12 @@ public class BaseTest {
 		//driver.get(config.getProperty("url"));
 		driver.get(siteUrl);
 		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicitwait")),TimeUnit.SECONDS);
 
 	}
 
-	@AfterSuite
+	@AfterSuite(groups={"sanity","regression"})
 	public void tearDown() {
 		driver.quit();
 	}

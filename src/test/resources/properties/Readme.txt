@@ -3,3 +3,6 @@ mvn clean test -Dtestngfilename=testng.xml -Dgroups=regression -Durl=https://www
 
 To run failed test cases
 mvn clean test -Dtestngfilename=test-output/testng-failed.xml -Dgroups=regression -Durl=https://www.ajio.com/
+
+
+sample testing
